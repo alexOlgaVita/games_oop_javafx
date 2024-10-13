@@ -24,7 +24,7 @@ public class Tetris extends Application {
         stage.setScene(scene);
         stage.show();
         stage.setTitle("Tetris");
-        // Control panel
+        /* Control panel */
         Pane controlPanel = new Pane();
         controlPanel.setPrefSize(500, 100);
         controlPanel.setStyle("-fx-background-color: #f0f0f0;");
