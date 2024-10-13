@@ -32,8 +32,8 @@ public class BishopBlack implements Figure {
         int deltaX = (x > xd) ? -1 : 1;
         int deltaY = (y > yd) ? -1 : 1;
         for (int index = 0; index < size; index++) {
-            x += deltaX;/* вычислить координату с учетом изменения deltaX */
-            y += deltaY;/* вычистить координату с учетом изменения deltaY */
+            x += deltaX;
+            y += deltaY;
             steps[index] = Cell.findBy(x, y);
         }
         return steps;
