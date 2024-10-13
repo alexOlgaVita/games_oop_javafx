@@ -127,7 +127,6 @@ public class Main extends Application {
         drawSnake(group);
     }
 
-    
     public static void main(String[] args) {
         Main.launch(args);
     }

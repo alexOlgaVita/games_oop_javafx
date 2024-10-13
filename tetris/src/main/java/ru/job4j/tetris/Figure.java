@@ -24,7 +24,6 @@ public class Figure {
         body = newBody;
     }
 
-
     List<Cell> asCells() {
         return body;
     }

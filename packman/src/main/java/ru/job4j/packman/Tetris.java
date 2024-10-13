@@ -16,9 +16,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.control.Button;
 import javafx.scene.shape.Line;
 
-
 public class Tetris extends Application {
-
     @Override
     public void start(Stage stage) {
         BorderPane canvas = new BorderPane();
